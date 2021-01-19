@@ -1,4 +1,4 @@
-<?php $this->load->view("header.php") ?>
+<?php $this->load->view("template/header.php") ?>
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
@@ -50,7 +50,7 @@
 </div>
 
 
-<?php $this->load->view("footer.php") ?>
+<?php $this->load->view("template/footer.php") ?>
 
 <script>
     $(document).ready(function() {
